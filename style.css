@@ -1,0 +1,6 @@
+main{
+    background-image: url("assests/images/netflix-bg.jpg");
+    /* doesnt display anything without height */
+    height:80vh;
+    
+}
