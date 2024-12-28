@@ -1,6 +1,31 @@
-main{
+*{
+    padding:0;
+    margin:0;
+}
+div.main{
     background-image: url("assests/images/netflix-bg.jpg");
+    /* remains at center in phone also ->bg */
+    background-position: center center;
     /* doesnt display anything without height */
-    height:80vh;
+    height: 80vh;
+    position: relative;
     
+}
+
+div.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    top: 0;
+    position: absolute;
+
+}
+
+nav{
+    max-width: 80vw ;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
