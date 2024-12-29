@@ -2,17 +2,20 @@
     padding:0;
     margin:0;
 }
-div.main{
+.main{
     background-image: url("assests/images/netflix-bg.jpg");
     /* remains at center in phone also ->bg */
     background-position: center center;
     /* doesnt display anything without height */
+   
+    background-repeat: none;
+    background-size: max(1200px, 100vw ) ;
     height: 80vh;
     position: relative;
     
 }
 
-div.main .box{
+.main .box{
     height: 80vh;
     width: 100%;
     opacity: 0.44;
@@ -28,4 +31,17 @@ nav{
     justify-content: space-between;
     display: flex;
     align-items: center;
+    height: 112px;
+}
+
+nav img{
+    color:red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
 }
